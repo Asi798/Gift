@@ -4,9 +4,22 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+  font-family: Georgia, serif;
   font-size: 100%;
   vertical-align: baseline;
+}
+
+h1 {
+  color: rgb(250, 163, 192);
+  position: fixed;
+  top: 30%;
+  font-size: 15px;
+}
+
+#cupon {
+  max-width: 350px;
+  position: fixed;
+  top: 10%;
 }
 
 body {
@@ -69,7 +82,7 @@ input {
 }
 
 .arrow {
-  border: solid aquamarine;
+  border: solid white;
   border-width: 0 4px 4px 0;
   display: inline-block;
   padding: 4px;
@@ -78,14 +91,15 @@ input {
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  color: aquamarine;
+  color: white;
 }
 
 #clica {
-  font-size: x-large;
+  font-size: 23px;
   position: fixed;
   top: 40%;
-  color: aquamarine;
+  color: white;
+  padding: 3px;
 }
 
 #happy {
